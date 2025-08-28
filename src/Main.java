@@ -48,8 +48,8 @@ public class Main {
             reverseFullName[right] = pace;
             left++;
             right--;
-        } for (char i : reverseFullName) {
-            System.out.print(i);
+        } for (char name : reverseFullName) {
+            System.out.print(name);
         }
     }
 }
